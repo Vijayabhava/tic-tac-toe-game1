@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(88, 88, 187);
+    text-align: center;
+}
+
+.con{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 10vmin;
+    color: rgb(181, 149, 212);
+    background-color: aqua;
+}
+#Reset{
+    padding: 0.7rem;
+    font-size: 1.25rem;
+    background-color: chartreuse;
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: chartreuse;
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: whitesmoke;
+    font-size: 10vmin;
+}
+
+.msg-container{
+   height: 25vmin;
+}
+/* Existing styles ... */
+
+/* Animation for message container */
+/* Existing styles ... */
+/* Existing styles ... */
+
+/* Animation for attractive fireworks */
+@keyframes attractiveFireworks {
+    0% {
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) translateY(-1000px) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+.attractive-fireworks {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #ffdb58; /* Adjust color as needed */
+    border-radius: 50%;
+    animation: attractiveFireworks 2s ease-out infinite; /* Adjust animation duration and easing as needed */
+}
+
+/* Existing styles ... */
+
+.copyright-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* Existing styles ... */
+/* Existing styles ... */
+
+.winning-line {
+    position: absolute;
+    height: 8px; /* Adjust line thickness as needed */
+    background-color: #ffdb58; /* Adjust line color as needed */
+    transform-origin: 0 50%;
+    z-index: 999;
+}
+
+/* Existing styles ... */
+
+
+
+.hide {
+    display: none;
+}
+
+
+
+
